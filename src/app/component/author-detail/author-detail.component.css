@@ -1,0 +1,24 @@
+.user-link {
+    display: flex;
+    padding: 10px;
+  }
+  .user-link > span {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .user-link > img{
+    background-attachment: fixed;
+    height: 250px;
+    width: 250;
+    max-height: 250px;
+    max-width: 250px;    
+}
+
+.list-group{
+    list-style-type: none; 
+}
+  
+p{
+    font-size: 40px;
+}

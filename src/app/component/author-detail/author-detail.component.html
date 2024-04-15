@@ -1,0 +1,10 @@
+<a class="user-link" *ngIf = "authorDetail">
+    <img [src]="authorDetail.download_url" class="img-align"/>
+    <span>
+      <p>
+        <span class="list-item-heading">Author ID</span>: {{ authorDetail.id }}
+      </p>
+      <p><span class="list-item-heading">Name</span>: {{ authorDetail.author }}</p>
+      <button (click) = "onGoBackClick()" type="button" class="button3">Go Back</button>
+    </span>                
+</a>
