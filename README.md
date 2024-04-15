@@ -21,13 +21,9 @@ Make sure you have the following software installed on your machine:
 
 2. Navigate to the project directory:
   ```bash
-  cd angular-assessment
+  cd angular-growable-list
   ```
 
-3. Install dependencies
-  ```bash
-  npm install
-  ```
 
 ### Running the Application
 To run the application in development mode, use the following command:
@@ -36,7 +32,7 @@ ng serve
 ```
 
 ### Usage
-Once the application is running, you can access it from browser using below endpoint -
+Once the application is running, you can access it from browser using below endpoint, by default it should be 4200, if its in use then you need to use another port displayed after ng serve -
 
 Endpoints
 * [localhost:4200](http://localhost:4200/author-list)
